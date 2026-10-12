@@ -1,0 +1,25 @@
+.anchor {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  top: 19%;
+}
+
+.stepHit {
+  display: contents;
+}
+
+.stepHitButton {
+  display: contents;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background: none;
+}
+
+.loadingSpinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

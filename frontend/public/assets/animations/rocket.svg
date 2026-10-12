@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 150">
+  <!-- Enhanced Rocket ship -->
+  <defs>
+    <linearGradient id="rocketGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f0f0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#c0c0c0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a0a0a0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="noseGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d63031;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="windowGlow">
+      <stop offset="0%" style="stop-color:#74c0fc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#339af0;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Body with details -->
+  <rect x="35" y="50" width="30" height="60" fill="url(#rocketGradient)" stroke="#808080" stroke-width="1"/>
+  <rect x="38" y="55" width="24" height="3" fill="#e0e0e0" opacity="0.5"/>
+  <rect x="38" y="90" width="24" height="3" fill="#e0e0e0" opacity="0.5"/>
+  
+  <!-- Nose cone -->
+  <path d="M 35,50 L 50,20 L 65,50 Z" fill="url(#noseGradient)" stroke="#b52a2a" stroke-width="1"/>
+  
+  <!-- Window -->
+  <circle cx="50" cy="65" r="9" fill="url(#windowGlow)"/>
+  <circle cx="50" cy="65" r="7" fill="#4dabf7" opacity="0.6"/>
+  <circle cx="47" cy="62" r="3" fill="#a5d8ff" opacity="0.8"/>
+  
+  <!-- Fins with gradient -->
+  <path d="M 35,100 L 25,130 L 35,110 Z" fill="#ffa94d" stroke="#f76707" stroke-width="1"/>
+  <path d="M 65,100 L 75,130 L 65,110 Z" fill="#ffa94d" stroke="#f76707" stroke-width="1"/>
+  
+  <!-- Enhanced Flames -->
+  <ellipse cx="50" cy="115" rx="9" ry="16" fill="#ff6b6b" opacity="0.9"/>
+  <ellipse cx="50" cy="118" rx="7" ry="14" fill="#ff922b" opacity="0.85"/>
+  <ellipse cx="50" cy="121" rx="5" ry="11" fill="#ffd43b" opacity="0.8"/>
+  <ellipse cx="50" cy="124" rx="3" ry="8" fill="#ffe066" opacity="0.7"/>
+</svg>

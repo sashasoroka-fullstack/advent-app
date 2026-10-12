@@ -1,0 +1,1 @@
+export { ColoredPlanetIcon } from "./ColoredPlanetIcon";

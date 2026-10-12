@@ -1,0 +1,19 @@
+.game-button {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  border: 2px solid black;
+  width: 8vw;
+  height: 44px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  background-color: white;
+  transition: background-color 0.3s, border 0.3s;
+  cursor: pointer;
+}
+
+.game-button:hover {
+  background-color: #cdffb6;
+  border: 2px solid transparent;
+}

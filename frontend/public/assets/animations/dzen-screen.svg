@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="dzenGradient">
+      <stop offset="0%" style="stop-color:#4a148c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a0033;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#dzenGradient)"/>
+  
+  <!-- Mystical stars -->
+  <circle cx="120" cy="80" r="2" fill="#ba68c8" opacity="0.9"/>
+  <circle cx="250" cy="120" r="1.5" fill="#ba68c8" opacity="0.7"/>
+  <circle cx="380" cy="100" r="1" fill="#ba68c8" opacity="0.8"/>
+  <circle cx="510" cy="140" r="2" fill="#ba68c8" opacity="0.6"/>
+  <circle cx="640" cy="110" r="1.5" fill="#ba68c8" opacity="0.9"/>
+  <circle cx="180" cy="280" r="1.5" fill="#ba68c8" opacity="0.8"/>
+  <circle cx="420" cy="320" r="1" fill="#ba68c8" opacity="0.7"/>
+  <circle cx="680" cy="300" r="2" fill="#ba68c8" opacity="0.9"/>
+  
+  <!-- Zen circle -->
+  <circle cx="400" cy="300" r="100" fill="none" stroke="#ba68c8" stroke-width="4" opacity="0.6"/>
+  <circle cx="400" cy="300" r="70" fill="none" stroke="#ce93d8" stroke-width="3" opacity="0.5"/>
+  <circle cx="400" cy="300" r="40" fill="#7b1fa2" opacity="0.3"/>
+  
+  <!-- Center symbol -->
+  <circle cx="400" cy="300" r="15" fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Text -->
+  <text x="400" y="480" font-size="42" font-weight="bold" fill="#ce93d8" text-anchor="middle">Perfect Harmony</text>
+  <text x="400" y="530" font-size="22" fill="#ba68c8" text-anchor="middle" opacity="0.8">All Planets Aligned</text>
+</svg>

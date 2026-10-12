@@ -1,0 +1,34 @@
+.screen {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+  width: 70%;
+}
+
+.close {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  z-index: 1;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-size: 300%;
+  font-weight: 900;
+  line-height: 1;
+  color: white;
+  transition: color 0.3s;
+}
+
+.close:hover,
+.close:focus-visible {
+  color: black;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}

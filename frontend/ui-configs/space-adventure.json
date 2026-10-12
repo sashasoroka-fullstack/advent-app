@@ -1,0 +1,85 @@
+{
+  "name": "Space Adventure Quest",
+  "map": {
+    "background": "/assets/animations/space-background.svg",
+    "mapSvg": "/assets/maps/space-map.svg",
+    "width": "100%",
+    "height": "100%"
+  },
+  "steps": [
+    { "taskNumber": 1, "cxPointers": 48, "cyPointers": 42, "cxStep": 15, "cyStep": 22, "icon": "/assets/icons/planet-base.svg", "color": "#8B5CF6", "size": "3%" },
+    { "taskNumber": 2, "cxPointers": 27.5, "cyPointers": 12, "cxStep": 29, "cyStep": 22, "icon": "/assets/icons/planet-base.svg", "color": "#EC4899", "size": "3%" },
+    { "taskNumber": 3, "cxPointers": 41.5, "cyPointers": 20, "cxStep": 43, "cyStep": 31, "icon": "/assets/icons/planet-base.svg", "color": "#00D9FF", "size": "3%" },
+    { "taskNumber": 4, "cxPointers": 57.5, "cyPointers": 31, "cxStep": 59, "cyStep": 41, "icon": "/assets/icons/planet-base.svg", "color": "#10B981", "size": "3%" },
+    { "taskNumber": 5, "cxPointers": 72, "cyPointers": 28, "cxStep": 73, "cyStep": 43, "icon": "/assets/icons/planet-base.svg", "color": "#F59E0B", "size": "3%" },
+    { "taskNumber": 6, "cxPointers": 82.5, "cyPointers": 41, "cxStep": 84, "cyStep": 51, "icon": "/assets/icons/planet-base.svg", "color": "#EF4444", "size": "3%" },
+    { "taskNumber": 7, "cxPointers": 84, "cyPointers": 58, "cxStep": 87, "cyStep": 68, "icon": "/assets/icons/planet-base.svg", "color": "#3B82F6", "size": "3%" }
+  ],
+  "theme": {
+    "palette": {
+      "primary": "#0a1128",
+      "secondary": "#1f4788",
+      "accent": "#00d9ff"
+    },
+    "pointerStyle": {
+      "maxVisibleInTooltip": 5,
+      "maxBeforeModal": 5,
+      "colors": [
+        { "name": "gold", "icons": ["/assets/pointers/space/zero.svg", "/assets/pointers/space/one.svg", "/assets/pointers/space/two.svg", "/assets/pointers/space/three.svg"] },
+        { "name": "silver", "icons": ["/assets/pointers/silver/zero.svg", "/assets/pointers/silver/one.svg", "/assets/pointers/silver/two.svg", "/assets/pointers/silver/three.svg"] },
+        { "name": "blue", "icons": ["/assets/pointers/blue/zero.svg", "/assets/pointers/blue/one.svg", "/assets/pointers/blue/two.svg", "/assets/pointers/blue/three.svg"] },
+        { "name": "purple", "icons": ["/assets/pointers/purple/zero.svg", "/assets/pointers/purple/one.svg", "/assets/pointers/purple/two.svg", "/assets/pointers/purple/three.svg"] },
+        { "name": "cyan", "icons": ["/assets/pointers/cyan/zero.svg", "/assets/pointers/cyan/one.svg", "/assets/pointers/cyan/two.svg", "/assets/pointers/cyan/three.svg"] },
+        { "name": "red", "icons": ["/assets/pointers/red/zero.svg", "/assets/pointers/red/one.svg", "/assets/pointers/red/two.svg", "/assets/pointers/red/three.svg"] }
+      ]
+    },
+    "stepShadow": {
+      "green": "/assets/pointers/space/shadow-green.svg",
+      "purple": "/assets/pointers/space/shadow-purple.svg",
+      "greenThreshold": 10
+    }
+  },
+  "animations": {
+    "stars": [
+      { "top": "8%", "left": "12%", "height": "1.5%", "width": "1.5%", "duration": 2.0, "image": "/assets/animations/star.svg" },
+      { "top": "15%", "left": "25%", "height": "2.5%", "width": "2.5%", "duration": 1.8, "image": "/assets/animations/star.svg" },
+      { "top": "22%", "left": "8%", "height": "2%", "width": "2%", "duration": 1.3, "image": "/assets/animations/star.svg" },
+      { "top": "18%", "left": "72%", "height": "3%", "width": "3%", "duration": 1.6, "image": "/assets/animations/star.svg" },
+      { "top": "28%", "left": "88%", "height": "2.2%", "width": "2.2%", "duration": 1.4, "image": "/assets/animations/star.svg" },
+      { "top": "35%", "left": "5%", "height": "1.8%", "width": "1.8%", "duration": 1.9, "image": "/assets/animations/star.svg" },
+      { "top": "42%", "left": "15%", "height": "2.8%", "width": "2.8%", "duration": 1.5, "image": "/assets/animations/star.svg" },
+      { "top": "38%", "left": "92%", "height": "2%", "width": "2%", "duration": 1.7, "image": "/assets/animations/star.svg" },
+      { "top": "52%", "left": "4%", "height": "2.5%", "width": "2.5%", "duration": 1.2, "image": "/assets/animations/star.svg" },
+      { "top": "48%", "left": "95%", "height": "1.6%", "width": "1.6%", "duration": 2.1, "image": "/assets/animations/star.svg" },
+      { "top": "58%", "left": "22%", "height": "3.2%", "width": "3.2%", "duration": 1.4, "image": "/assets/animations/star.svg" },
+      { "top": "65%", "left": "6%", "height": "2%", "width": "2%", "duration": 1.8, "image": "/assets/animations/star.svg" },
+      { "top": "68%", "left": "35%", "height": "1.8%", "width": "1.8%", "duration": 1.6, "image": "/assets/animations/star.svg" },
+      { "top": "72%", "left": "85%", "height": "2.4%", "width": "2.4%", "duration": 1.3, "image": "/assets/animations/star.svg" },
+      { "top": "78%", "left": "12%", "height": "2.6%", "width": "2.6%", "duration": 1.9, "image": "/assets/animations/star.svg" },
+      { "top": "82%", "left": "48%", "height": "2.2%", "width": "2.2%", "duration": 1.5, "image": "/assets/animations/star.svg" },
+      { "top": "88%", "left": "28%", "height": "3%", "width": "3%", "duration": 1.7, "image": "/assets/animations/star.svg" },
+      { "top": "92%", "left": "68%", "height": "1.8%", "width": "1.8%", "duration": 2.0, "image": "/assets/animations/star.svg" },
+      { "top": "85%", "left": "92%", "height": "2.8%", "width": "2.8%", "duration": 1.4, "image": "/assets/animations/star.svg" },
+      { "top": "12%", "left": "45%", "height": "2%", "width": "2%", "duration": 1.6, "image": "/assets/animations/star.svg" }
+    ],
+    "clouds": [
+      { "top": "25%", "left": "55%", "height": "6%", "width": "8%", "duration": 12, "translateFrom": "-25%", "translateTo": "25%", "image": "/assets/animations/cloud.svg" },
+      { "top": "55%", "left": "15%", "height": "7%", "width": "9%", "duration": 15, "translateFrom": "-30%", "translateTo": "20%", "image": "/assets/animations/cloud.svg" },
+      { "top": "75%", "left": "72%", "height": "5.5%", "width": "7.5%", "duration": 10, "translateFrom": "-20%", "translateTo": "30%", "image": "/assets/animations/cloud.svg" },
+      { "top": "15%", "left": "82%", "height": "6.5%", "width": "8.5%", "duration": 13, "translateFrom": "-28%", "translateTo": "22%", "image": "/assets/animations/cloud.svg" }
+    ],
+    "character": {
+      "enabled": true,
+      "image": "/assets/animations/rocket.svg",
+      "shadow": "/assets/animations/rocket-shadow.svg",
+      "position": { "left": "85%", "top": "12%", "height": "14%" },
+      "shadowPosition": { "left": "86%", "top": "22%", "height": "1.8%" },
+      "animation": { "translateFrom": "-8%", "translateTo": "0%", "duration": 3.5 },
+      "shadowAnimation": { "scaleFrom": 0.85, "scaleTo": 1.15, "duration": 3.5 }
+    }
+  },
+  "finishScreens": {
+    "finish": "/assets/animations/finish-screen.svg",
+    "dzen": "/assets/animations/dzen-screen.svg"
+  }
+}

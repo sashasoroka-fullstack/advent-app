@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="planet6Grad">
+      <stop offset="0%" style="stop-color:#3bc9db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0c8599;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="42" fill="url(#planet6Grad)" stroke="#0a6d7f" stroke-width="2"/>
+  <ellipse cx="50" cy="50" rx="40" ry="13" fill="#66d9e8" opacity="0.4" transform="rotate(20 50 50)"/>
+  <ellipse cx="52" cy="48" rx="35" ry="10" fill="#99e9f2" opacity="0.3" transform="rotate(-15 52 48)"/>
+  <text x="50" y="58" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle" font-family="Arial, sans-serif">6</text>
+</svg>

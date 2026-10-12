@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="finishGradient">
+      <stop offset="0%" style="stop-color:#1a237e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000051;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#finishGradient)"/>
+  
+  <!-- Stars -->
+  <circle cx="100" cy="50" r="2" fill="white" opacity="0.8"/>
+  <circle cx="200" cy="100" r="1.5" fill="white" opacity="0.9"/>
+  <circle cx="300" cy="80" r="1" fill="white" opacity="0.7"/>
+  <circle cx="400" cy="150" r="2" fill="white" opacity="0.8"/>
+  <circle cx="500" cy="120" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="600" cy="90" r="1" fill="white" opacity="0.9"/>
+  <circle cx="700" cy="130" r="2" fill="white" opacity="0.7"/>
+  <circle cx="150" cy="250" r="1.5" fill="white" opacity="0.8"/>
+  <circle cx="350" cy="300" r="1" fill="white" opacity="0.6"/>
+  <circle cx="550" cy="280" r="2" fill="white" opacity="0.9"/>
+  <circle cx="750" cy="320" r="1.5" fill="white" opacity="0.7"/>
+  
+  <!-- Trophy/Achievement -->
+  <circle cx="400" cy="300" r="80" fill="#ffd700" opacity="0.3"/>
+  <path d="M 360,280 L 360,320 L 380,340 L 420,340 L 440,320 L 440,280 Z" fill="#ffd700"/>
+  <rect x="385" y="340" width="30" height="40" fill="#c69500"/>
+  <rect x="370" y="380" width="60" height="10" fill="#c69500"/>
+  <circle cx="400" cy="300" r="30" fill="#ffe082" opacity="0.7"/>
+  
+  <!-- "Mission Complete" text area -->
+  <text x="400" y="480" font-size="48" font-weight="bold" fill="#ffd700" text-anchor="middle">Mission Complete!</text>
+  <text x="400" y="530" font-size="24" fill="#ffffff" text-anchor="middle" opacity="0.8">Space Adventure Finished</text>
+</svg>

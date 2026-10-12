@@ -1,0 +1,73 @@
+stages:
+  - ai-review
+  - build
+  - deploy
+
+include:
+  - project: 'leobit/internal-projects/leobit/ai-resources'
+    ref: master
+    file: 'code-review/gitlab/templates/claude-review.yml'
+
+claude-review:
+  variables:
+    REVIEW_TARGET_BRANCH: "develop"
+    REVIEW_GUIDELINES_PATH: "REVIEW.md"
+
+# Set up SSH on target machine
+.ssh-setup: &ssh-setup
+  - apk add openssh-client
+  - eval $(ssh-agent -s)
+  - mkdir -p ~/.ssh
+  - echo -e "${DEPLOYMENT_SSH_PRIVATE_KEY_BASE64}" | base64 -d > ~/.ssh/id_rsa
+  - chmod 600 ~/.ssh/id_rsa
+
+# Copy files to remote machine via SSH
+.ssh-copy-files: &ssh-copy-files
+  - scp -r -o StrictHostKeyChecking=no frontend/dist/* ec2-user@$DEPLOYMENT_HOST:/var/www/$DEPLOYMENT_SERVICE_NAME
+
+.react-build: &react-build
+  - cd frontend
+  - npm ci
+  - cp $APP_ENV_VARIABLES .env
+  - npm version --new-version 1.0.0-$CI_COMMIT_SHORT_SHA --allow-same-version --no-git-tag-version
+  - npm run build
+
+build-test:
+  stage: build
+  environment: Test
+  only:
+    - merge_requests
+    - develop
+  image: node:19-alpine3.16
+  script: *react-build
+  artifacts:
+    paths:
+      - frontend/dist/
+
+deploy-to-test:
+  stage: deploy
+  environment: Test
+  only:
+    - develop
+  before_script: *ssh-setup
+  script: *ssh-copy-files
+
+build-for-production:
+  stage: build
+  environment: Production
+  only:
+    - master
+  image: node:19-alpine3.16
+  script: *react-build
+  artifacts:
+    paths:
+      - frontend/dist/
+
+deploy-to-production:
+  stage: deploy
+  environment: Production
+  only:
+    - master
+  when: manual
+  before_script: *ssh-setup
+  script: *ssh-copy-files

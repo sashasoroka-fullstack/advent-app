@@ -1,0 +1,69 @@
+{
+  "name": "Example Custom Quest",
+  "taskCount": 10,
+  "tasks": [
+    {
+      "id": 0,
+      "label": "Start",
+      "type": "core"
+    },
+    {
+      "id": 1,
+      "label": "Task 1",
+      "type": "core"
+    },
+    {
+      "id": 2,
+      "label": "Task 2",
+      "type": "core"
+    },
+    {
+      "id": 3,
+      "label": "Task 3",
+      "type": "core"
+    },
+    {
+      "id": 4,
+      "label": "Task 4",
+      "type": "core"
+    },
+    {
+      "id": 5,
+      "label": "Bonus Task 1",
+      "type": "extra"
+    },
+    {
+      "id": 6,
+      "label": "Bonus Task 2",
+      "type": "extra"
+    },
+    {
+      "id": 7,
+      "label": "Bonus Task 3",
+      "type": "extra"
+    },
+    {
+      "id": 8,
+      "label": "Finish",
+      "type": "finish"
+    },
+    {
+      "id": 9,
+      "label": "Ultimate Finish",
+      "type": "finish"
+    }
+  ],
+  "finalTaskIds": [8, 9],
+  "firstFinishTaskId": 8,
+  "finalFinishTaskId": 9,
+  "finishAnimations": {
+    "finalFinish": {
+      "top": "38%",
+      "left": "245%"
+    },
+    "firstFinish": {
+      "top": "130%",
+      "left": "-75%"
+    }
+  }
+}

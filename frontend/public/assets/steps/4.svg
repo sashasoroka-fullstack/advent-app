@@ -1,0 +1,29 @@
+<svg width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_2004_658)">
+<path d="M45.5222 83.0444C68.4543 83.0444 87.0444 64.4543 87.0444 41.5222C87.0444 18.5901 68.4543 0 45.5222 0C22.5901 0 4 18.5901 4 41.5222C4 64.4543 22.5901 83.0444 45.5222 83.0444Z" fill="url(#paint0_linear_2004_658)"/>
+</g>
+<g style="mix-blend-mode:multiply" opacity="0.58">
+<path d="M45.5217 76.7726C64.9893 76.7726 80.7709 60.991 80.7709 41.5234C80.7709 22.0558 64.9893 6.27417 45.5217 6.27417C26.0541 6.27417 10.2725 22.0558 10.2725 41.5234C10.2725 60.991 26.0541 76.7726 45.5217 76.7726Z" fill="url(#paint1_linear_2004_658)"/>
+</g>
+<path d="M45.5206 74.34C63.6456 74.34 78.3388 59.6468 78.3388 41.5218C78.3388 23.3968 63.6456 8.70361 45.5206 8.70361C27.3956 8.70361 12.7024 23.3968 12.7024 41.5218C12.7024 59.6468 27.3956 74.34 45.5206 74.34Z" fill="white"/>
+<path d="M47.9438 57.2737V51.1972H32.6985V48.2779L47.9438 25.291H53.7392V46.6993H57.0694V51.1972H53.7392V57.2737H47.9438ZM48.0303 46.6993V35.8005C48.0303 35.4401 48.0303 35.0581 48.0303 34.6544C48.0448 34.2507 48.0592 33.8255 48.0736 33.3786C48.0736 33.1335 48.0808 32.9389 48.0952 32.7947C48.1096 32.6505 48.1601 32.3406 48.2466 31.8648C47.9871 32.6001 47.6699 33.3281 47.2951 34.0489C46.9347 34.7697 46.5166 35.4978 46.0409 36.233L39.2075 46.6993H48.0303Z" fill="#57B12D"/>
+<defs>
+<filter id="filter0_d_2004_658" x="0.3913" y="-1.00136e-05" width="90.2618" height="90.2618" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="3.60869"/>
+<feGaussianBlur stdDeviation="1.80435"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2004_658"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2004_658" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_2004_658" x1="-11.9943" y1="-8.2404" x2="99.1204" y2="85.8777" gradientUnits="userSpaceOnUse">
+<stop stop-color="#97CF00"/>
+<stop offset="1" stop-color="#24B400"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2004_658" x1="-3.30551" y1="-0.721354" x2="91.0225" y2="79.1778" gradientUnits="userSpaceOnUse">
+<stop stop-color="#97CF00"/>
+<stop offset="1" stop-color="#24B400"/>
+</linearGradient>
+</defs>
+</svg>

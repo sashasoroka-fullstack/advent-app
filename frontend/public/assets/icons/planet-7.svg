@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="planet7Grad">
+      <stop offset="0%" style="stop-color:#ffe066;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fcc419;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="42" fill="url(#planet7Grad)" stroke="#e8a000" stroke-width="2"/>
+  <circle cx="32" cy="38" r="12" fill="#fff3bf" opacity="0.6"/>
+  <circle cx="68" cy="58" r="9" fill="#fff3bf" opacity="0.5"/>
+  <circle cx="46" cy="64" r="7" fill="#ffec99" opacity="0.5"/>
+  <text x="50" y="58" font-size="32" font-weight="bold" fill="#2b2b2b" text-anchor="middle" font-family="Arial, sans-serif">7</text>
+</svg>

@@ -1,0 +1,114 @@
+.stacked-pointers {
+  position: absolute;
+  left: 50%;
+  top: auto;
+  bottom: calc(100% + 26px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-50%);
+  height: clamp(30px, 4.8vh, 46px);
+  z-index: 15;
+  pointer-events: auto;
+}
+
+.stacked-pointers--expanded {
+  z-index: 30;
+}
+
+.stacked-pointers__item {
+  position: relative;
+  flex-shrink: 0;
+  margin-left: -12px;
+  transition: margin-left 0.3s ease, transform 0.2s ease;
+}
+
+.stacked-pointers__item:first-child {
+  margin-left: 0;
+}
+
+.stacked-pointers--expanded .stacked-pointers__item {
+  margin-left: 0;
+}
+
+.stacked-pointers--expanded .stacked-pointers__item + .stacked-pointers__item {
+  margin-left: 6px;
+}
+
+.stacked-pointers__item:hover {
+  z-index: 30;
+  transform: scale(1.08);
+}
+
+.stacked-pointers__avatar {
+  display: block;
+  width: clamp(28px, 4.8vh, 42px);
+  height: clamp(28px, 4.8vh, 42px);
+  border-radius: 50%;
+  border: 2px solid #fff;
+  object-fit: cover;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.28);
+  cursor: pointer;
+  background-color: #e5e7eb;
+}
+
+.stacked-pointers__item--logged-user .stacked-pointers__avatar {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+.stacked-pointers__item--finishing {
+  position: absolute;
+  margin-left: 0;
+  pointer-events: none;
+}
+
+.stacked-pointers__item--hidden {
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: 0;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.stacked-pointers__avatar--default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 0;
+}
+
+.stacked-pointers__avatar--default svg {
+  width: 62%;
+  height: 62%;
+}
+
+.stacked-pointers__names-tooltip {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  font-family: Inter, Roboto, system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  z-index: 60;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: max-content;
+}
+
+.stacked-pointers__names-tooltip-item {
+  white-space: nowrap;
+  line-height: 1.3;
+  text-align: center;
+}
